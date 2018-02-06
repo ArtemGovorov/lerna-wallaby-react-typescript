@@ -1,5 +1,7 @@
 {
 	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
 		"lerna": "^2.8.0"
 	}
 }
