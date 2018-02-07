@@ -1,5 +1,4 @@
 import * as React from 'react'
-import { RaisedButton } from 'material-ui'
 
 export interface Props {
   /**
