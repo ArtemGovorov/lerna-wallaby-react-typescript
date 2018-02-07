@@ -1,5 +1,0 @@
-HelloWorld example:
-
-```js
-<HelloWorld/>
-```

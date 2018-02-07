@@ -12,7 +12,7 @@ export interface State {}
 
 export default class HtmlViewer extends React.Component<Props, State> {
   public static defaultProps: Props = {
-    content: '<h1>Sample Text</h1>',
+    content: '<span>Html Viewer</span>',
   }
 
   constructor(props: Props) {
@@ -24,7 +24,6 @@ export default class HtmlViewer extends React.Component<Props, State> {
     return (
       <div>
         <div dangerouslySetInnerHTML={{ __html: content }} />
-        <RaisedButton label="Hello" />
       </div>
     )
   }
